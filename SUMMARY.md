@@ -1,10 +1,4 @@
-# Summary
-
-* [项目简介](README.md)
-* [快速开始](docs/快速开始.md)
-    * [环境搭建](docs/环境搭建.md)
-    * [简单使用](docs/简单使用.md)
-* [学入学习](docs/深入学习.md)
+* [Introduction](README.md)
 * [Part I](part1/README.md)
     * [Writing is nice](part1/writing.md)
     * [GitBook is nice](part1/gitbook.md)
@@ -13,3 +7,7 @@
 * [Part III](part3/README.md)
     * [We love feedback](part3/feedback_please.md)
     * [Better tools for authors](part3/better_tools.md)
+* [JCCA_RISK](JCCA_RISK/README.md)
+    * [技术栈](JCCA_RISK/技术栈-beta.md)
+
+
