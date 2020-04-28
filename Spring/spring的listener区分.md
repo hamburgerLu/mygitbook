@@ -1,0 +1,14 @@
+## 三种监听器的关系
+
+ApplicationListener、SpringApplicationRunListeners、SpringApplicationRunListener的关系：
+
+```
+1、SpringApplicationRunListeners类和SpringApplicationRunListener类是SpringBoot中新增的类。ApplicationListener是spring中框架的类。
+2、在SpringBoot（SpringApplication类）中，使用SpringApplicationRunListeners、SpringApplicationRunListener来间接调用ApplicationListener。
+3、SpringApplicationRunListeners是SpringApplicationRunListener的封装，SpringApplicationRunListeners中包含多个SpringApplicationRunListener，是为了批量执行的封装，SpringApplicationRunListeners与SpringApplicationRunListener生命周期相同，调用每个周期的各个SpringApplicationRunListener。然后广播相应的事件到Spring框架的ApplicationListener。
+```
+
+图片如下：
+
+![](.\img\applicationListener.png)
+
